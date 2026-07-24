@@ -13,6 +13,8 @@ Usar de 5 a 7 telas:
 
 Adicionar ou remover uma tela quando a história pedir. Não preencher por obrigação.
 
+Se o usuário definir a quantidade de telas, respeitar a quantidade pedida.
+
 ## Estático
 
 - Headline de até 8 palavras.
@@ -47,3 +49,5 @@ Não rotacionar:
 - tom de voz;
 - legibilidade;
 - formato 1080 x 1350.
+
+Para duas ou mais publicações, consultar `metodologia-copy-escolar.md` e `producao-em-lote.md`.

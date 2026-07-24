@@ -51,3 +51,14 @@ Fornecer uma foto por tela. Repetir uma foto somente quando houver justificativa
 ```
 
 Para estáticos, usar `poster` ou um dos layouts da escola.
+
+## Lotes
+
+Para duas ou mais publicações:
+
+- criar uma pasta dedicada dentro de `jobs/`;
+- usar um job completo por publicação;
+- numerar os arquivos para preservar a ordem editorial;
+- apontar cada job para uma pasta de saída exclusiva;
+- executar `scripts/render-batch.ps1`;
+- consultar `producao-em-lote.md`.

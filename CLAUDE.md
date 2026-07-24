@@ -1,6 +1,6 @@
 # Instagram das escolas
 
-Usar a skill de projeto `gerar-posts-escolas` em toda solicitação de post, carrossel, arte ou conteúdo para o Aviãozinho de Papel ou o Colibri.
+Usar a skill de projeto `gerar-posts-escolas` em toda solicitação de post, carrossel, arte, safra, calendário ou pacote de conteúdo para o Aviãozinho de Papel ou o Colibri.
 
 ## Regras firmes
 
@@ -11,6 +11,8 @@ Usar a skill de projeto `gerar-posts-escolas` em toda solicitação de post, car
 - Nunca gerar ou alterar crianças com IA.
 - Usar de 3 a 5 cores da paleta por arte.
 - Variar layouts e motivos entre publicações.
+- Quando o usuário pedir uma quantidade X, entregar exatamente X publicações finais.
+- Em lotes, planejar pilares, ganchos, emoções, fotos e CTAs antes de renderizar.
 - Salvar resultados em `outputs/`.
 - Nunca publicar ou enviar imagens sem pedido explícito.
 

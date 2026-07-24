@@ -44,7 +44,7 @@ const CONTENT = {
   aviaozinho: {
     name: "Aviãozinho de Papel",
     photoDir: path.join(RAW, "Aviãozinho de Papel", "fotos-criancas"),
-    logoSource: path.join(ROOT, "assets", "logos", "aviaozinho.png"),
+    logoSource: path.join(ROOT, "assets", "logos", "render", "aviaozinho.jpg"),
     colors: {
       paper: "#FFFDF7",
       sky: "#5E93CD",
@@ -93,7 +93,7 @@ Qual tentativa merece aplauso por aí hoje?`,
   colibri: {
     name: "Colibri",
     photoDir: path.join(RAW, "Colibri", "fotos-de-crianças"),
-    logoSource: path.join(ROOT, "assets", "logos", "colibri.png"),
+    logoSource: path.join(ROOT, "assets", "logos", "render", "colibri.jpg"),
     colors: {
       paper: "#FFF7E8",
       blue: "#283D9B",
@@ -167,12 +167,8 @@ async function listImages(directory) {
 async function prepareLogo(brandKey, brand) {
   const dir = path.join(OUT, "_assets");
   await fs.mkdir(dir, { recursive: true });
-  const target = path.join(dir, `${brandKey}-logo.png`);
-  try {
-    await fs.access(target);
-  } catch {
-    await fs.copyFile(brand.logoSource, target);
-  }
+  const target = path.join(dir, `${brandKey}-logo${path.extname(brand.logoSource)}`);
+  await fs.copyFile(brand.logoSource, target);
   return target;
 }
 
@@ -190,8 +186,7 @@ function commonCss() {
     body{font-family:Nunito,Arial,sans-serif}
     .post{position:relative;width:1080px;height:1350px;overflow:hidden}
     .photo{position:absolute;display:block;width:100%;height:100%;object-fit:contain;object-position:center}
-    .logo-pill{position:absolute;z-index:20;background:#fff;padding:10px 16px;border-radius:18px;box-shadow:0 8px 22px #0002}
-    .logo-pill img{display:block;max-width:190px;max-height:88px}
+    .logo-pill{position:absolute;z-index:20;width:192px;height:108px;background-color:#fff;background-repeat:no-repeat;background-position:center;background-size:160px 82px;border-radius:18px;box-shadow:0 8px 22px #0002}
     .counter{position:absolute;z-index:20;font-weight:700;font-size:22px;letter-spacing:.08em}
     .kicker{font-size:20px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
     h1{margin:0;font-weight:800;letter-spacing:-.025em;line-height:.94}
@@ -325,7 +320,7 @@ function aviSlide(brand, slide, image, index, total, logoUrl, standalone = false
       </style>`;
   }
   const standaloneCss = standalone ? "<style>.drag,.counter{display:none!important}</style>" : "";
-  return `<!doctype html><html><head><meta charset="utf-8">${base}${standaloneCss}</head><body><main class="post">${body}${aviDecor(index)}<div class="logo-pill"><img src="${logoUrl}"></div><div class="counter">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}</div></main></body></html>`;
+  return `<!doctype html><html><head><meta charset="utf-8">${base}${standaloneCss}</head><body><main class="post">${body}${aviDecor(index)}<div class="logo-pill" style="background-image:url('${logoUrl}')"></div><div class="counter">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}</div></main></body></html>`;
 }
 
 function colibriSlide(brand, slide, image, index, total, logoUrl, standalone = false) {
@@ -431,7 +426,7 @@ function colibriSlide(brand, slide, image, index, total, logoUrl, standalone = f
       </style>`;
   }
   const standaloneCss = standalone ? "<style>.drag,.counter{display:none!important}</style>" : "";
-  return `<!doctype html><html><head><meta charset="utf-8">${base}${standaloneCss}</head><body><main class="post">${body}${colibriDecor(index)}<div class="logo-pill"><img src="${logoUrl}"></div><div class="counter">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}</div></main></body></html>`;
+  return `<!doctype html><html><head><meta charset="utf-8">${base}${standaloneCss}</head><body><main class="post">${body}${colibriDecor(index)}<div class="logo-pill" style="background-image:url('${logoUrl}')"></div><div class="counter">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}</div></main></body></html>`;
 }
 
 function aviStatic(brand, image, logoUrl) {
@@ -445,12 +440,12 @@ function aviStatic(brand, image, logoUrl) {
     .hero{position:absolute;left:46px;right:46px;top:500px;height:760px;overflow:hidden;background:${c.sky};border:13px solid #fff;border-radius:52px;box-shadow:0 26px 60px #243b702f}.hero .photo{object-position:center}
     .copy{position:absolute;left:66px;right:140px;top:68px;min-height:470px;background:${c.paper};border-radius:40px;padding:58px 50px 48px;box-shadow:14px 18px 0 ${c.green};z-index:8}
     .copy .kicker{color:${c.pink};margin-bottom:22px}.copy h1{font-size:76px;max-width:800px}.copy p{font-size:30px;margin-top:24px}
-    .logo-pill{left:66px;bottom:54px}.logo-pill img{max-width:200px}
+    .logo-pill{left:66px;bottom:54px}
     .rainbow{position:absolute;right:-50px;top:44px;width:260px;height:145px;border-radius:180px 180px 0 0;border:30px solid ${c.pink};border-bottom:0;z-index:10}
     .rainbow:before{content:"";position:absolute;inset:24px;border-radius:150px 150px 0 0;border:27px solid ${c.yellow};border-bottom:0}
     .rainbow:after{content:"";position:absolute;inset:49px;border-radius:120px 120px 0 0;border:24px solid ${c.cyan};border-bottom:0}
     .stars{position:absolute;z-index:12;right:55px;top:255px;color:${c.yellow};font-size:68px;letter-spacing:18px;transform:rotate(8deg);text-shadow:80px 18px ${c.green}}
-  </style></head><body><main class="post"><div class="hero"><img class="photo" src="${photoUrl}"></div><section class="copy"><div class="kicker">PEQUENAS DESCOBERTAS</div><h1>${esc(piece.title)}</h1><p>${esc(piece.body)}</p></section><div class="rainbow"></div><div class="stars">★ ★</div><div class="logo-pill"><img src="${logoUrl}"></div></main></body></html>`;
+  </style></head><body><main class="post"><div class="hero"><img class="photo" src="${photoUrl}"></div><section class="copy"><div class="kicker">PEQUENAS DESCOBERTAS</div><h1>${esc(piece.title)}</h1><p>${esc(piece.body)}</p></section><div class="rainbow"></div><div class="stars">★ ★</div><div class="logo-pill" style="background-image:url('${logoUrl}')"></div></main></body></html>`;
 }
 
 function colibriStatic(brand, image, logoUrl) {
@@ -468,7 +463,7 @@ function colibriStatic(brand, image, logoUrl) {
     .logo-pill{left:auto;right:66px;bottom:56px}
     .bubbles{position:absolute;z-index:12;right:52px;top:46px;display:flex;gap:14px;align-items:flex-end}.bubbles i{display:block;border-radius:50%;border:7px solid #fff}.bubbles i:nth-child(1){width:78px;height:78px;background:${c.cyan}}.bubbles i:nth-child(2){width:112px;height:112px;background:${c.gold}}.bubbles i:nth-child(3){width:66px;height:66px;background:${c.orange}}
     .scribble{position:absolute;z-index:13;left:55px;top:50px;font-family:Bubblegum;font-size:92px;color:${c.orange};transform:rotate(-9deg)}
-  </style></head><body><main class="post"><div class="hero"><img class="photo" src="${photoUrl}"></div><div class="bubbles"><i></i><i></i><i></i></div><div class="scribble">〰</div><section class="copy"><div class="tag">CONQUISTA DO DIA</div><h1>${esc(piece.title)}</h1><p>${esc(piece.body)}</p></section><div class="logo-pill"><img src="${logoUrl}"></div></main></body></html>`;
+  </style></head><body><main class="post"><div class="hero"><img class="photo" src="${photoUrl}"></div><div class="bubbles"><i></i><i></i><i></i></div><div class="scribble">〰</div><section class="copy"><div class="tag">CONQUISTA DO DIA</div><h1>${esc(piece.title)}</h1><p>${esc(piece.body)}</p></section><div class="logo-pill" style="background-image:url('${logoUrl}')"></div></main></body></html>`;
 }
 
 async function writeCopy(brand, piece, directory, type) {
@@ -482,9 +477,12 @@ async function writeCopy(brand, piece, directory, type) {
 
 async function inlineLocalImages(html) {
   const urls = [...new Set([...html.matchAll(/src="(file:[^"]+)"/g)].map((match) => match[1]))];
+  const backgroundUrls = [
+    ...new Set([...html.matchAll(/url\(['"]?(file:[^'")]+)['"]?\)/g)].map((match) => match[1])),
+  ];
   let result = html;
 
-  for (const url of urls) {
+  for (const url of [...new Set([...urls, ...backgroundUrls])]) {
     const filePath = fileURLToPath(url);
     const extension = path.extname(filePath).toLowerCase();
     const mime =

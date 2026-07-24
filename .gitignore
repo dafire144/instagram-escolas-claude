@@ -6,6 +6,7 @@ inputs/**/*
 
 # Jobs podem conter nomes e caminhos de fotos
 jobs/*.json
+jobs/**/*.json
 !jobs/modelo-*.json
 
 # Resultados e temporários
