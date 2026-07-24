@@ -1,0 +1,26 @@
+# Fotos e dados locais
+raw/
+inputs/**/*
+!inputs/**/
+!inputs/**/.gitkeep
+
+# Jobs podem conter nomes e caminhos de fotos
+jobs/*.json
+!jobs/modelo-*.json
+
+# Resultados e temporários
+outputs/**
+!outputs/.gitkeep
+safra-teste-*/
+tmp/
+*.log
+*.invalid
+
+# Manuais renderizados e referências com crianças
+manuais-de-marca/**/*.pdf
+manuais-de-marca/**/assets/referencia-*.jpg
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/

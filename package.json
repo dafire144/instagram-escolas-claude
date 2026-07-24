@@ -1,0 +1,15 @@
+{
+  "name": "instagram-escolas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gerador de conteúdo para Aviãozinho de Papel e Colibri",
+  "type": "module",
+  "scripts": {
+    "generate": "node tools/generate_posts.mjs",
+    "demo": "node tools/generate_posts.mjs --demo",
+    "help": "node tools/generate_posts.mjs --help"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

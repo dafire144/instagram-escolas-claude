@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gerar posts das escolas"
+  short_description: "Cria posts infantis seguros para as duas escolas"
+  default_prompt: "Use $gerar-posts-escolas para criar uma nova publicação para uma das escolas."

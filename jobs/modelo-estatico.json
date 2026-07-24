@@ -1,0 +1,12 @@
+{
+  "school": "colibri",
+  "format": "static",
+  "slug": "tema-do-estatico",
+  "output": "outputs/colibri/tema-do-estatico",
+  "safe_photo_reviewed": false,
+  "photo": "inputs/colibri/fotos/foto-01.jpg",
+  "layout": "poster",
+  "title": "TÍTULO DA ARTE",
+  "body": "Subtítulo curto.",
+  "caption": "Legenda completa."
+}

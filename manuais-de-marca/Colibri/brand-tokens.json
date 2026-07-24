@@ -1,0 +1,164 @@
+{
+  "brand": "Colibri",
+  "version": "1.3",
+  "status": "approved-for-production",
+  "approvals": {
+    "confirmed_by": "Sr. Davi",
+    "confirmed_at": "2026-07-23",
+    "image_use_authorized": true,
+    "pedagogical_and_institutional_information_validated": true
+  },
+  "colors": {
+    "azul_colibri": {
+      "hex": "#283D9B",
+      "role": "base e autoridade"
+    },
+    "laranja_vivo": {
+      "hex": "#F0391E",
+      "role": "accent da marca"
+    },
+    "azul_noite": {
+      "hex": "#14255E",
+      "role": "texto e fundos"
+    },
+    "dourado": {
+      "hex": "#F6A90A",
+      "role": "energia e CTA"
+    },
+    "creme": {
+      "hex": "#FFF7E8",
+      "role": "respiro"
+    },
+    "branco": {
+      "hex": "#FFFFFF",
+      "role": "contraste"
+    },
+    "turquesa": {
+      "hex": "#20BFD0",
+      "role": "apoio pontual"
+    },
+    "coral": {
+      "hex": "#E85F66",
+      "role": "campanhas pontuais"
+    }
+  },
+  "typography": {
+    "display": "Baloo 2 ExtraBold ou Fredoka Bold",
+    "body": "Nunito Regular, SemiBold e ExtraBold",
+    "accent": "Bubblegum Sans ou Patrick Hand",
+    "rules": [
+      "Headlines fortes, compactas e com uma ideia por bloco.",
+      "Use caixa alta apenas em 1 ou 2 linhas. Não transforme a arte inteira em grito.",
+      "Corpo com entrelinha generosa e largura curta.",
+      "Fonte manuscrita aparece como anotação ou palavra afetiva, não como base do sistema."
+    ]
+  },
+  "formats": {
+    "feed": {
+      "width": 1080,
+      "height": 1350,
+      "safe_x": 80,
+      "safe_y": 100
+    },
+    "story_reel": {
+      "width": 1080,
+      "height": 1920,
+      "safe_x": 80,
+      "safe_top": 250,
+      "safe_bottom": 350
+    }
+  },
+  "photography": {
+    "real_children_required": true,
+    "minimum_photos_per_piece": 1,
+    "source_folder": "C:\\Users\\davie\\Documents\\Projetos Pessoais\\instagram-escolas\\raw\\imagens-base-manual-de-marca\\Colibri\\fotos-de-crianças",
+    "available_photos_at_version": 32,
+    "generated_children_allowed": false,
+    "child_head_crop_allowed": false,
+    "source_with_preexisting_head_crop_allowed": false,
+    "default_fit": "contain",
+    "review": "person-by-person at 100% size",
+    "selection_rules": [
+      "Portão absoluto: nenhuma cabeça de criança pode ser cortada, coberta ou encostada na borda.",
+      "Rejeite na seleção qualquer arquivo em que a cabeça da criança já esteja cortada na foto original.",
+      "Use object-fit contain como padrão. Cover só é permitido após ajuste manual e revisão pessoa por pessoa.",
+      "Regra firme: todo post, carrossel ou reel inclui pelo menos uma foto real das crianças.",
+      "Mostre a atividade em andamento, com material e objetivo visualmente claros.",
+      "Alterne planos individuais e de grupo para comunicar autonomia e convivência.",
+      "Em atividades com água, destaque experiência e interação, nunca exposição corporal.",
+      "Use apenas imagens autorizadas. Não use crianças geradas por IA."
+    ]
+  },
+  "voice": {
+    "core": "Escola que acolhe e explica: calor humano com clareza sobre desenvolvimento.",
+    "traits": [
+      "Clara",
+      "Confiante",
+      "Ativa",
+      "Acolhedora"
+    ],
+    "prefer": [
+      "autonomia",
+      "descoberta",
+      "desenvolvimento",
+      "cuidado",
+      "segurança",
+      "convivência",
+      "experiência",
+      "aprender",
+      "construir",
+      "crescer"
+    ],
+    "avoid": [
+      "criança à frente",
+      "resultado superior",
+      "estimulação garantida",
+      "melhor método",
+      "performance infantil",
+      "aluno perfeito",
+      "ganhar asas",
+      "mundo mágico",
+      "linguagem clínica sem contexto"
+    ]
+  },
+  "editorial_pillars": [
+    {
+      "name": "Desenvolvimento em ação",
+      "purpose": "o propósito por trás de atividades reais"
+    },
+    {
+      "name": "Aprender fazendo",
+      "purpose": "arte, leitura, corpo, música e investigação"
+    },
+    {
+      "name": "Cuidado que dá confiança",
+      "purpose": "acolhimento, rotina e segurança emocional"
+    },
+    {
+      "name": "Convivência e autonomia",
+      "purpose": "cooperação, escolhas e pequenas conquistas"
+    },
+    {
+      "name": "Família bem informada",
+      "purpose": "orientações práticas e ponte casa-escola"
+    },
+    {
+      "name": "Quem faz o Colibri",
+      "purpose": "equipe, espaços, eventos, matrículas e visitas"
+    }
+  ],
+  "carousel_structure": [
+    "1. Capa: benefício observável ou pergunta direta.",
+    "2. Cena: foto da experiência em andamento.",
+    "3. Intenção: o que a atividade convida a praticar.",
+    "4. Sinais: três comportamentos que a família consegue reconhecer.",
+    "5. Ponte com casa: orientação simples, sem receita rígida.",
+    "6. Fechamento: síntese confiante e um único CTA."
+  ],
+  "content_limits": {
+    "cover_words": "3-8",
+    "subheadline_words": "até 16",
+    "caption_words": "80-150",
+    "hero_elements_per_piece": 1
+  }
+}

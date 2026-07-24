@@ -1,0 +1,161 @@
+{
+  "brand": "Aviãozinho de Papel",
+  "version": "1.3",
+  "status": "approved-for-production",
+  "approvals": {
+    "confirmed_by": "Sr. Davi",
+    "confirmed_at": "2026-07-23",
+    "image_use_authorized": true,
+    "pedagogical_and_institutional_information_validated": true
+  },
+  "colors": {
+    "azul_céu": {
+      "hex": "#3472B9",
+      "role": "base e fundos"
+    },
+    "azul_nuvem": {
+      "hex": "#5E93CD",
+      "role": "áreas leves"
+    },
+    "índigo": {
+      "hex": "#2D2F91",
+      "role": "texto e contraste"
+    },
+    "amarelo_avião": {
+      "hex": "#FFD025",
+      "role": "accent principal"
+    },
+    "ciano": {
+      "hex": "#60C6F0",
+      "role": "doodles e apoio"
+    },
+    "papel": {
+      "hex": "#FFFDF7",
+      "role": "respiro"
+    },
+    "magenta": {
+      "hex": "#D03588",
+      "role": "accent pontual"
+    },
+    "verde": {
+      "hex": "#68B93E",
+      "role": "accent pontual"
+    }
+  },
+  "typography": {
+    "display": "Fredoka Bold ou Baloo 2 ExtraBold",
+    "body": "Nunito Regular, SemiBold e ExtraBold",
+    "accent": "Bubblegum Sans ou Patrick Hand",
+    "rules": [
+      "Headlines curtas, arredondadas e com variação de tamanho.",
+      "Corpo sempre simples e muito legível. Evite fontes infantis em parágrafos.",
+      "Fonte manuscrita serve para uma palavra, seta ou bilhete. Nunca para texto longo.",
+      "A tipografia do logotipo é exclusiva da marca e não deve ser imitada em títulos."
+    ]
+  },
+  "formats": {
+    "feed": {
+      "width": 1080,
+      "height": 1350,
+      "safe_x": 80,
+      "safe_y": 100
+    },
+    "story_reel": {
+      "width": 1080,
+      "height": 1920,
+      "safe_x": 80,
+      "safe_top": 250,
+      "safe_bottom": 350
+    }
+  },
+  "photography": {
+    "real_children_required": true,
+    "minimum_photos_per_piece": 1,
+    "source_folder": "C:\\Users\\davie\\Documents\\Projetos Pessoais\\instagram-escolas\\raw\\imagens-base-manual-de-marca\\Aviãozinho de Papel\\fotos-criancas",
+    "available_photos_at_version": 17,
+    "generated_children_allowed": false,
+    "child_head_crop_allowed": false,
+    "source_with_preexisting_head_crop_allowed": false,
+    "default_fit": "contain",
+    "review": "person-by-person at 100% size",
+    "selection_rules": [
+      "Portão absoluto: nenhuma cabeça de criança pode ser cortada, coberta ou encostada na borda.",
+      "Rejeite na seleção qualquer arquivo em que a cabeça da criança já esteja cortada na foto original.",
+      "Use object-fit contain como padrão. Cover só é permitido após ajuste manual e revisão pessoa por pessoa.",
+      "Regra firme: todo post, carrossel ou reel inclui pelo menos uma foto real das crianças.",
+      "Priorize cenas reais de atividade, vínculo, descoberta e expressão.",
+      "Use uma foto herói por peça. Grafismos nunca cobrem rosto, mãos ou ação principal.",
+      "Use apenas imagens autorizadas. Não use crianças geradas por IA."
+    ]
+  },
+  "voice": {
+    "core": "Conversa de escola para família: calorosa, curiosa, simples e verdadeira.",
+    "traits": [
+      "Afetiva",
+      "Lúdica",
+      "Próxima",
+      "Positiva"
+    ],
+    "prefer": [
+      "descoberta",
+      "imaginação",
+      "curiosidade",
+      "vínculo",
+      "brincar",
+      "criar",
+      "explorar",
+      "voar",
+      "família",
+      "acolhimento"
+    ],
+    "avoid": [
+      "estimulação garantida",
+      "gênio",
+      "melhor escola",
+      "perfeito",
+      "resultado garantido",
+      "mini adulto",
+      "linguagem excessivamente técnica"
+    ]
+  },
+  "editorial_pillars": [
+    {
+      "name": "Descobertas do dia",
+      "purpose": "atividades e aprendizados em cenas concretas"
+    },
+    {
+      "name": "Imaginação em movimento",
+      "purpose": "arte, histórias, faz de conta e criação"
+    },
+    {
+      "name": "Laços que acolhem",
+      "purpose": "vínculos, adaptação, convivência e pertencimento"
+    },
+    {
+      "name": "Família a bordo",
+      "purpose": "orientações simples e participação da família"
+    },
+    {
+      "name": "Bastidores da escola",
+      "purpose": "equipe, rotina, espaços e preparação"
+    },
+    {
+      "name": "Convites para voar",
+      "purpose": "matrículas, visitas, eventos e chamadas institucionais"
+    }
+  ],
+  "carousel_structure": [
+    "1. Capa: gancho de 3 a 8 palavras e uma imagem herói.",
+    "2. Cena: o que aconteceu, sem texto genérico.",
+    "3. Descoberta: o que a atividade convidou a criança a explorar.",
+    "4. Processo: materiais, escolhas e interação.",
+    "5. Ponte com a família: uma pergunta ou ideia simples para casa.",
+    "6. Fechamento: frase memorável e um único CTA."
+  ],
+  "content_limits": {
+    "cover_words": "3-8",
+    "subheadline_words": "até 16",
+    "caption_words": "80-150",
+    "hero_elements_per_piece": 1
+  }
+}

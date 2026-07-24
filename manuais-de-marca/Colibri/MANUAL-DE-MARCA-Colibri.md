@@ -1,0 +1,183 @@
+# Manual de Marca - Colibri
+
+> Manual operacional de marca para Instagram
+> Versão 1.3 | 23 de julho de 2026
+
+## Status e método
+
+Manual operacional inferido a partir do logotipo, das capturas do Instagram e do acervo fotográfico fornecido. Autorização de uso das imagens e informações pedagógicas e institucionais confirmadas pelo Sr. Davi em 23/07/2026. Status: aprovado para produção.
+
+## Essência
+
+**Ideia central:** Cuidado que dá segurança para cada criança explorar, aprender e ganhar autonomia.
+
+**Eixo criativo: cuidado em movimento, desenvolvimento em foco.**
+
+**Promessa percebida:** Mostrar um desenvolvimento infantil ativo, intencional e cercado de afeto.
+
+**Público:** Famílias e responsáveis que valorizam cuidado, rotina, aprendizagem e clareza sobre o propósito de cada experiência.
+
+**Personalidade:** confiável, enérgica, acolhedora, educativa, otimista.
+
+## Diagnóstico visual
+
+- O pássaro, o azul profundo e o laranja criam uma assinatura institucional forte.
+- O feed combina atividades reais com cards de leitura rápida, áreas de cor e títulos de alta energia.
+- A maior oportunidade é organizar as cores secundárias e manter o azul Colibri como fio condutor do grid.
+
+## Logotipo
+
+### Uso correto
+
+- Versão preferencial: marca azul e laranja sobre branco ou creme.
+- Em fundos azuis, use a versão branca proveniente do arquivo original.
+- Área de proteção: mantenha ao redor da marca um espaço equivalente à altura da letra C.
+- Tamanho mínimo recomendado no feed 1080 px: 150 px de largura para a marca completa.
+
+### Não fazer
+
+- Não separar o pássaro da gota para criar um símbolo novo.
+- Não trocar azul e laranja por cores de campanha.
+- Não aplicar contorno, bevel, brilho ou sombra.
+- Não colocar a assinatura pequena sobre fotografia com pouco contraste.
+
+## Cores
+
+| Cor | HEX | Papel |
+|---|---|---|
+| Azul Colibri | `#283D9B` | base e autoridade |
+| Laranja vivo | `#F0391E` | accent da marca |
+| Azul noite | `#14255E` | texto e fundos |
+| Dourado | `#F6A90A` | energia e CTA |
+| Creme | `#FFF7E8` | respiro |
+| Branco | `#FFFFFF` | contraste |
+| Turquesa | `#20BFD0` | apoio pontual |
+| Coral | `#E85F66` | campanhas pontuais |
+
+**Proporção:** 40% fundo ou respiro, 35% cores-base e 25% accents infantis. Use de 3 a 5 cores da paleta por peça.
+
+## Tipografia
+
+- Display: Baloo 2 ExtraBold ou Fredoka Bold
+- Corpo: Nunito Regular, SemiBold e ExtraBold
+- Acento: Bubblegum Sans ou Patrick Hand
+
+- Headlines fortes, compactas e com uma ideia por bloco.
+- Use caixa alta apenas em 1 ou 2 linhas. Não transforme a arte inteira em grito.
+- Corpo com entrelinha generosa e largura curta.
+- Fonte manuscrita aparece como anotação ou palavra afetiva, não como base do sistema.
+
+## Fotografia
+
+**Regra firme:** toda peça de feed, carrossel ou reel deve incluir pelo menos uma foto real das crianças.
+
+**Acervo disponível nesta versão:** 32 fotos.
+
+- Portão absoluto: nenhuma cabeça de criança pode ser cortada, coberta ou encostada na borda.
+- Rejeite na seleção qualquer arquivo em que a cabeça da criança já esteja cortada na foto original.
+- Use object-fit contain como padrão. Cover só é permitido após ajuste manual e revisão pessoa por pessoa.
+- Regra firme: todo post, carrossel ou reel inclui pelo menos uma foto real das crianças.
+- Mostre a atividade em andamento, com material e objetivo visualmente claros.
+- Alterne planos individuais e de grupo para comunicar autonomia e convivência.
+- Em atividades com água, destaque experiência e interação, nunca exposição corporal.
+- Use apenas imagens autorizadas. Não use crianças geradas por IA.
+
+## Motivos gráficos
+
+- pássaro em voo, asa e rastro de movimento
+- gota, pétala e formas arredondadas
+- peças de quebra-cabeça e módulos de construção
+- blocos de cor, ondas e cantos orgânicos
+
+## Composição
+
+- Composição modular e enérgica, com blocos grandes e hierarquia clara.
+- Use de 3 a 5 cores da paleta por peça. Azul profundo garante unidade; laranja, dourado, turquesa e coral criam energia infantil.
+- Alterne entre bolhas, ondas, gotas, blocos, confetes e arcos. Não repita a mesma combinação em telas consecutivas.
+- O logotipo pode fechar o post em barra ou canto de alto contraste.
+
+## Formatos
+
+- Feed: 1080 x 1350 px. Área segura de 80 px nas laterais e 100 px no topo e rodapé.
+- Stories e reels: 1080 x 1920 px. Área segura de 80 px nas laterais, 250 px no topo e 350 px no rodapé.
+- Capa: 3 a 8 palavras. Subheadline: até 16 palavras. Legenda: em geral, 80 a 150 palavras.
+
+## Tom de voz
+
+Escola que acolhe e explica: calor humano com clareza sobre desenvolvimento.
+
+- **Clara:** explica o propósito sem jargão pedagógico
+- **Confiante:** mostra método sem superlativos
+- **Ativa:** valoriza ação, tentativa e autonomia
+- **Acolhedora:** fala com a família sem distância institucional
+
+### Regras de escrita
+
+- Abra com um benefício observável ou uma pergunta que os pais reconheçam.
+- Mostre a relação entre atividade e experiência, sem transformar toda legenda em aula.
+- Use verbos ativos: experimentar, construir, desenvolver, compartilhar, cuidar.
+- Evite promessas de desempenho, diagnóstico ou comparação entre crianças.
+- Só use referências religiosas após confirmar o posicionamento institucional da escola.
+- Emojis são discretos: pássaro, coração, livro, bloco. Máximo de dois por legenda.
+
+**Preferir:** autonomia, descoberta, desenvolvimento, cuidado, segurança, convivência, experiência, aprender, construir, crescer.
+
+**Evitar:** criança à frente, resultado superior, estimulação garantida, melhor método, performance infantil, aluno perfeito, ganhar asas, mundo mágico, linguagem clínica sem contexto.
+
+## Pilares editoriais
+
+- **Desenvolvimento em ação:** o propósito por trás de atividades reais.
+- **Aprender fazendo:** arte, leitura, corpo, música e investigação.
+- **Cuidado que dá confiança:** acolhimento, rotina e segurança emocional.
+- **Convivência e autonomia:** cooperação, escolhas e pequenas conquistas.
+- **Família bem informada:** orientações práticas e ponte casa-escola.
+- **Quem faz o Colibri:** equipe, espaços, eventos, matrículas e visitas.
+
+## Headlines modelo
+
+- Brincar é aprender em movimento.
+- Pequenas escolhas constroem autonomia.
+- O que existe por trás desta brincadeira?
+- Cuidar também é dar espaço para tentar.
+- Cada conquista merece ser vista.
+- Uma rotina segura abre espaço para explorar.
+
+## Estrutura de carrossel
+
+- 1. Capa: benefício observável ou pergunta direta.
+- 2. Cena: foto da experiência em andamento.
+- 3. Intenção: o que a atividade convida a praticar.
+- 4. Sinais: três comportamentos que a família consegue reconhecer.
+- 5. Ponte com casa: orientação simples, sem receita rígida.
+- 6. Fechamento: síntese confiante e um único CTA.
+
+## CTAs
+
+- Agende uma visita
+- Converse com o Colibri
+- Salve esta ideia
+
+## Legenda de exemplo
+
+Hoje a brincadeira pediu equilíbrio, atenção e muitas tentativas. Cada criança encontrou seu ritmo, observou os colegas e comemorou pequenas conquistas. No Colibri, a atividade ganha sentido quando une movimento, convivência e autonomia. Quer conhecer a nossa rotina de perto? Agende uma visita e converse com a equipe.
+
+## Checklist de aprovação
+
+- [ ] Uma única ideia principal.
+- [ ] Pelo menos uma foto real das crianças.
+- [ ] Todas as pessoas foram revisadas individualmente em tamanho real.
+- [ ] Nenhuma cabeça de criança está cortada, coberta ou encostada na borda.
+- [ ] A foto original também preserva a cabeça inteira.
+- [ ] Um elemento herói antes dos enfeites.
+- [ ] Cores e tipografia dentro do sistema.
+- [ ] A composição usa de 3 a 5 cores e não repete o mesmo conjunto de motivos da tela anterior.
+- [ ] Texto legível no celular e dentro da zona segura.
+- [ ] Logotipo vindo do arquivo original.
+- [ ] Legenda baseada em cena real e sem promessas sem prova.
+- [ ] Autorização de imagem e nenhuma informação sensível da criança.
+- [ ] Um único CTA.
+- [ ] A peça parece claramente desta escola.
+
+## Fronteira com a outra escola
+
+Não usar avião de papel, nuvens, metáforas de voo, polaroides em excesso ou colagem de caderno como assinatura. O território desta marca é movimento, desenvolvimento, blocos de cor e clareza.

@@ -1,0 +1,24 @@
+{
+  "school": "aviaozinho",
+  "format": "carousel",
+  "slug": "tema-do-carrossel",
+  "output": "outputs/aviaozinho/tema-do-carrossel",
+  "safe_photo_reviewed": false,
+  "photos": [
+    "inputs/aviaozinho/fotos/foto-01.jpg",
+    "inputs/aviaozinho/fotos/foto-02.jpg"
+  ],
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "TÍTULO DA CAPA",
+      "body": "Subtítulo curto."
+    },
+    {
+      "layout": "cta",
+      "title": "TÍTULO DO FECHAMENTO",
+      "body": "CTA curto."
+    }
+  ],
+  "caption": "Legenda completa."
+}
