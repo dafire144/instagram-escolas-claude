@@ -2,6 +2,25 @@
 
 Repositório de produção de conteúdo para o Aviãozinho de Papel e o Colibri. Inclui identidades visuais, fontes, logos, gerador determinístico e uma skill de projeto para o Claude Code.
 
+## Instalação automática
+
+Este repositório público não contém fotos de crianças. Para baixar e configurar o pacote oficial:
+
+```powershell
+$arquivo = Join-Path ([System.IO.Path]::GetTempPath()) "INSTALAR-instagram-escolas.ps1"
+Invoke-WebRequest "https://raw.githubusercontent.com/dafire144/instagram-escolas-claude/main/INSTALAR.ps1" -OutFile $arquivo
+powershell -NoProfile -ExecutionPolicy Bypass -File $arquivo
+```
+
+O instalador:
+
+- verifica Node.js e Google Chrome;
+- baixa o ZIP oficial;
+- confere o SHA-256;
+- recusa sobrescrever uma pasta existente;
+- extrai em `Documentos\instagram-escolas`;
+- executa a configuração inicial.
+
 ## O que o sistema gera
 
 - posts estáticos em 1080 x 1350;
