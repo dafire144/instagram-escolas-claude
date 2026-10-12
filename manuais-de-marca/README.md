@@ -7,9 +7,12 @@ Este pacote transforma o material visual existente em dois sistemas de produçã
 - `brand-tokens.json` para cores, tipografia, formatos e regras;
 - pasta `assets` com logotipo, recorte do feed e prancha de fotografias reais.
 
-## Regra firme de fotografia
+## Modalidades e fotografia
 
-Todo post de feed, carrossel ou reel deve incluir pelo menos uma foto real das crianças da escola correspondente. A criança é o elemento herói; ilustrações, grafismos e tipografia organizam a leitura sem cobrir rosto, mãos ou atividade.
+- **Cotidiano:** cada publicação inclui pelo menos uma foto real das crianças da escola correspondente. A criança é o elemento principal; ilustrações, grafismos e tipografia organizam a leitura sem cobrir rosto, mãos ou atividade.
+- **Informativo:** estáticos e carrosséis podem ser feitos sem fotos. A informação é o elemento principal, organizada em explicações, listas, passos, comparações ou avisos. Foto só entra quando ajuda a esclarecer e continua sujeita a todas as regras de autorização e enquadramento.
+
+Estrutura e aplicações: [Formato informativo](../docs/FORMATO-INFORMATIVO.md).
 
 Portão absoluto desde 23/07/2026:
 
@@ -47,9 +50,9 @@ As imagens do acervo têm autorização de uso confirmada pelo Sr. Davi em 23/07
 
 ## Método de produção
 
-1. Escolha um pilar editorial e um único objetivo.
-2. Selecione a foto real da criança que será o elemento herói.
-3. Escreva o gancho em 3 a 8 palavras.
+1. Escolha a modalidade, um pilar editorial e um único objetivo.
+2. No cotidiano, selecione a foto real que será o elemento principal. No informativo, defina a dúvida e a resposta sustentada por fonte ou briefing confirmado.
+3. Escreva um título curto e claro. Em avisos, priorize o assunto, os dados e a ação necessária.
 4. Monte a peça com os tokens da escola.
 5. Use uma ideia por tela e um CTA por peça.
 6. Verifique autorização de imagem, ausência de informação sensível e claims pedagógicos.
@@ -57,4 +60,6 @@ As imagens do acervo têm autorização de uso confirmada pelo Sr. Davi em 23/07
 
 ## Status
 
-Versão 1.2 aprovada para produção. Em 23/07/2026, o Sr. Davi confirmou a autorização de uso das imagens e validou as informações pedagógicas e institucionais das duas escolas.
+Manuais Markdown e tokens v1.4, de 12/10/2026, incorporam a modalidade informativa. Os PDFs existentes continuam como registro visual v1.3; não foram regenerados nesta atualização. Antes de reconstruí-los, incorporar a regra informativa às fontes do gerador de manuais para não sobrescrever esta evolução.
+
+A identidade e o formato de cotidiano foram aprovados para produção em 23/07/2026, quando o Sr. Davi confirmou a autorização de uso das imagens e as informações fornecidas. Essa confirmação não valida automaticamente novas datas, regras ou orientações. Os exemplos informativos são demonstrações para avaliação visual, sem aprovação final ou publicação presumida.

@@ -10,12 +10,13 @@ if (jobIndex < 0 || !args[jobIndex + 1]) {
 const repoRoot = process.cwd();
 const jobPath = path.resolve(repoRoot, args[jobIndex + 1]);
 const job = JSON.parse(fs.readFileSync(jobPath, "utf8"));
-const output = path.resolve(repoRoot, job.output);
+const output = path.resolve(repoRoot, job.output || (job.content_type === "informative" ? path.join("outputs", job.school, job.slug) : job.output));
 const manifestPath = path.join(output, "manifest.json");
 
 if (!fs.existsSync(manifestPath)) throw new Error(`Manifesto ausente: ${manifestPath}`);
 const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-if (manifest.safe_photo_reviewed !== true) throw new Error("Manifesto sem revisão fotográfica.");
+const informativeWithoutPhotos = job.content_type === "informative" && manifest.content_type === "informative" && Array.isArray(manifest.photos) && manifest.photos.length === 0 && manifest.photo_review_required === false;
+if (!informativeWithoutPhotos && manifest.safe_photo_reviewed !== true) throw new Error("Manifesto sem revisão fotográfica.");
 
 function walk(directory) {
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -48,4 +49,4 @@ for (const file of pngs) {
 }
 
 console.log(`STRUCTURAL PASS: ${pngs.length} PNG(s) em 1080x1350.`);
-console.log("PENDENTE: abrir cada PNG e revisar todas as pessoas visualmente.");
+console.log(informativeWithoutPhotos ? "Informativo sem fotos: revisão de pessoas não se aplica. Conferir texto e composição visual." : "PENDENTE: abrir cada PNG e revisar todas as pessoas visualmente.");

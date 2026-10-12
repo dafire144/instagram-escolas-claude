@@ -1,6 +1,6 @@
 {
   "brand": "Aviãozinho de Papel",
-  "version": "1.3",
+  "version": "1.4",
   "status": "approved-for-production",
   "approvals": {
     "confirmed_by": "Sr. Davi",
@@ -71,6 +71,16 @@
   "photography": {
     "real_children_required": true,
     "minimum_photos_per_piece": 1,
+    "requirement_scope": "Default cotidiano; informative uses content_type_overrides",
+    "content_type_overrides": {
+      "informative": {
+        "status": "available-for-visual-review",
+        "real_children_required": false,
+        "minimum_photos_per_piece": 0,
+        "photo_use": "Optional, only when it clarifies the information",
+        "review_when_photos_present": true
+      }
+    },
     "source_folder": "C:\\Users\\davie\\Documents\\Projetos Pessoais\\instagram-escolas\\raw\\imagens-base-manual-de-marca\\Aviãozinho de Papel\\fotos-criancas",
     "available_photos_at_version": 17,
     "generated_children_allowed": false,
@@ -82,7 +92,7 @@
       "Portão absoluto: nenhuma cabeça de criança pode ser cortada, coberta ou encostada na borda.",
       "Rejeite na seleção qualquer arquivo em que a cabeça da criança já esteja cortada na foto original.",
       "Use object-fit contain como padrão. Cover só é permitido após ajuste manual e revisão pessoa por pessoa.",
-      "Regra firme: todo post, carrossel ou reel inclui pelo menos uma foto real das crianças.",
+      "No cotidiano, incluir foto real; no informativo, foto opcional somente quando esclarecer o conteúdo.",
       "Priorize cenas reais de atividade, vínculo, descoberta e expressão.",
       "Use uma foto herói por peça. Grafismos nunca cobrem rosto, mãos ou ação principal.",
       "Use apenas imagens autorizadas. Não use crianças geradas por IA."

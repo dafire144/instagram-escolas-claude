@@ -2,17 +2,19 @@
 
 Aplicar esta metodologia a toda publicação. Ela adapta o rigor de craft da Orna para famílias e educação infantil, sem importar o tom B2B.
 
+**Modalidades:** no cotidiano, a cena real sustenta a copy. No informativo, a base é uma dúvida e sua resposta confirmada; seguir `formato-informativo.md`. As estruturas narrativas de cena e as extensões abaixo orientam o cotidiano, sem obrigar um informativo a contar uma atividade ou usar foto.
+
 ## Decisão editorial antes de escrever
 
 Definir em uma frase:
 
-- qual cena real sustenta a publicação;
+- qual cena real sustenta o cotidiano, ou qual dúvida e fonte sustentam o informativo;
 - qual é a ideia central;
 - qual emoção conduz a leitura;
 - por que uma família continuaria para a próxima tela;
 - qual ação única encerra a peça.
 
-Sem uma cena real e uma ideia central, não escrever o carrossel.
+Sem uma ideia central e sua base real, não escrever o carrossel. Informativos dispensam cena e foto; exigem informação confirmada.
 
 ## Pilares editoriais
 
@@ -27,7 +29,7 @@ Distribuir as publicações entre:
 7. Relação entre escola e família.
 8. Convite institucional.
 
-Não transformar todo post em explicação pedagógica. A cena vem primeiro.
+No cotidiano, a cena vem primeiro. No informativo, a resposta útil vem primeiro. Não transformar toda publicação em explicação pedagógica.
 
 ## Oito tipos de gancho
 
@@ -71,7 +73,7 @@ Evitar:
 
 Se um conceito pedagógico for necessário, ligar o conceito a uma cena observável e nunca prometer resultado individual.
 
-## Arquitetura de carrossel
+## Arquitetura de carrossel de cotidiano
 
 Usar de 5 a 7 telas por padrão:
 
@@ -85,7 +87,7 @@ Usar de 5 a 7 telas por padrão:
 
 Uma ideia por tela. Títulos curtos. O corpo complementa o título em vez de repeti-lo.
 
-## Legenda em quatro blocos
+## Legenda de cotidiano em quatro blocos
 
 Escrever de 80 a 150 palavras:
 
@@ -110,8 +112,8 @@ Executar na ordem:
 
 1. Voz alta: reescrever toda frase que soe formal, automática ou difícil de falar.
 2. Facão: cortar pelo menos 15% das palavras do primeiro rascunho.
-3. Cena: trocar abstrações por detalhes que estejam visíveis na foto.
-4. Verdade: remover fala, intenção, emoção, resultado ou claim que não possa ser comprovado.
+3. Cena ou clareza: no cotidiano, trocar abstrações por detalhes visíveis; no informativo, tornar a resposta compreensível e aplicável à dúvida da família.
+4. Verdade: remover fala, intenção, emoção, resultado ou claim que não possa ser comprovado. No informativo, conferir fonte, atualidade e escopo; dados institucionais precisam de briefing confirmado.
 5. Gancho: criar cinco capas diferentes, variando o tipo, e escolher apenas a melhor.
 
 ## Linguagem proibida
@@ -135,9 +137,9 @@ Antes de aprovar, responder:
 
 - A primeira tela interrompe o deslize sem apelar?
 - Cada tela entrega algo novo?
-- A copy descreve o que realmente aconteceu?
+- A copy descreve o que aconteceu, no cotidiano, ou responde com informação confirmada, no informativo?
 - A família entende sem vocabulário técnico?
-- O texto poderia pertencer somente a esta foto e a esta escola?
+- O cotidiano corresponde à foto? O informativo responde à dúvida sem inventar regras da escola? Ambos preservam a voz da marca?
 - Existe apenas um CTA?
 
 Se a resposta for não, editar antes de renderizar.

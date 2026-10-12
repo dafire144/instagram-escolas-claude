@@ -1,11 +1,11 @@
 # Manual de Marca - Aviãozinho de Papel
 
 > Manual operacional de marca para Instagram
-> Versão 1.3 | 23 de julho de 2026
+> Versão 1.4 | 12 de outubro de 2026
 
 ## Status e método
 
-Manual operacional inferido a partir do logotipo, das capturas do Instagram e do acervo fotográfico fornecido. Autorização de uso das imagens e informações pedagógicas e institucionais confirmadas pelo Sr. Davi em 23/07/2026. Status: aprovado para produção.
+Manual operacional inferido a partir do logotipo, das capturas do Instagram e do acervo fotográfico fornecido. Autorização de uso das imagens e informações pedagógicas e institucionais confirmadas pelo Sr. Davi em 23/07/2026. A identidade e o formato de cotidiano foram aprovados para produção naquela data. A v1.4 acrescenta a modalidade informativa, com demonstrações para avaliação visual. O PDF existente permanece no registro visual v1.3 e não foi regenerado nesta atualização.
 
 ## Essência
 
@@ -69,14 +69,14 @@ Manual operacional inferido a partir do logotipo, das capturas do Instagram e do
 
 ## Fotografia
 
-**Regra firme:** toda peça de feed, carrossel ou reel deve incluir pelo menos uma foto real das crianças.
+**Cotidiano:** cada publicação deve incluir pelo menos uma foto real das crianças. **Informativo:** estáticos e carrosséis podem ser feitos sem fotos; a informação é o elemento principal. Quando houver foto, todas as regras abaixo continuam valendo.
 
 **Acervo disponível nesta versão:** 17 fotos.
 
 - Portão absoluto: nenhuma cabeça de criança pode ser cortada, coberta ou encostada na borda.
 - Rejeite na seleção qualquer arquivo em que a cabeça da criança já esteja cortada na foto original.
 - Use object-fit contain como padrão. Cover só é permitido após ajuste manual e revisão pessoa por pessoa.
-- Regra firme: todo post, carrossel ou reel inclui pelo menos uma foto real das crianças.
+- No cotidiano, a foto real sustenta a narrativa. No informativo, usar foto somente quando esclarecer o conteúdo.
 - Priorize cenas reais de atividade, vínculo, descoberta e expressão.
 - Use uma foto herói por peça. Grafismos nunca cobrem rosto, mãos ou ação principal.
 - Use apenas imagens autorizadas. Não use crianças geradas por IA.
@@ -140,7 +140,7 @@ Conversa de escola para família: calorosa, curiosa, simples e verdadeira.
 - O que seu filho descobre quando brinca?
 - Aqui, cada ideia encontra espaço para voar.
 
-## Estrutura de carrossel
+## Estrutura de carrossel de cotidiano
 
 - 1. Capa: gancho de 3 a 8 palavras e uma imagem herói.
 - 2. Cena: o que aconteceu, sem texto genérico.
@@ -148,6 +148,18 @@ Conversa de escola para família: calorosa, curiosa, simples e verdadeira.
 - 4. Processo: materiais, escolhas e interação.
 - 5. Ponte com a família: uma pergunta ou ideia simples para casa.
 - 6. Fechamento: frase memorável e um único CTA.
+
+## Formato informativo
+
+Modalidade para esclarecer dúvidas, explicar assuntos e transmitir comunicados. Mantém a identidade da escola e o formato 1080 x 1350, com texto, listas, passos, comparação ou aviso como elemento principal. Foto opcional; não incluir criança como decoração.
+
+- Educativo: pergunta clara, resposta, pontos úteis e aplicação. Alegações sobre saúde, segurança ou desenvolvimento exigem fonte confiável e validação pertinente.
+- Comunicado: o que acontece, para quem, quando e qual ação é necessária, usando somente dados confirmados pela escola. Não inventar datas, regras, turmas ou canais; não renderizar placeholders.
+- Carrossel: normalmente 4 a 7 telas, ajustadas à informação. Estático: uma mensagem curta ou lista que caiba com leitura confortável.
+- Escrita direta, acolhedora e voltada ao adulto, sem frases poéticas fixas. A legenda complementa a arte; não precisa atingir 80 a 150 palavras.
+- Uma ideia por tela e um CTA por publicação. Não esconder a resposta até a última tela nem acrescentar telas por obrigação.
+
+A estrutura completa está em `../../docs/FORMATO-INFORMATIVO.md`. No gerador, usar `content_type: "informative"`. Os layouts são `info-cover`, `info-explain`, `info-list`, `info-steps`, `info-compare`, `info-summary` e `info-notice`.
 
 ## CTAs
 
@@ -162,17 +174,17 @@ Hoje a sala virou ateliê, laboratório e pista de decolagem. Entre tintas, text
 ## Checklist de aprovação
 
 - [ ] Uma única ideia principal.
-- [ ] Pelo menos uma foto real das crianças.
-- [ ] Todas as pessoas foram revisadas individualmente em tamanho real.
-- [ ] Nenhuma cabeça de criança está cortada, coberta ou encostada na borda.
-- [ ] A foto original também preserva a cabeça inteira.
+- [ ] Modalidade definida: foto real no cotidiano; informação confirmada no informativo.
+- [ ] Se houver foto, todas as pessoas foram revisadas individualmente em tamanho real; sem foto, revisão fotográfica não aplicável.
+- [ ] Se houver foto, nenhuma cabeça de criança está cortada, coberta ou encostada na borda.
+- [ ] Se houver foto, o arquivo original também preserva a cabeça inteira.
 - [ ] Um elemento herói antes dos enfeites.
 - [ ] Cores e tipografia dentro do sistema.
 - [ ] A composição usa de 3 a 5 cores e não repete o mesmo conjunto de motivos da tela anterior.
 - [ ] Texto legível no celular e dentro da zona segura.
 - [ ] Logotipo vindo do arquivo original.
-- [ ] Legenda baseada em cena real e sem promessas sem prova.
-- [ ] Autorização de imagem e nenhuma informação sensível da criança.
+- [ ] Legenda baseada em cena real, no cotidiano, ou em informação confirmada, no informativo; sem promessas sem prova.
+- [ ] Autorização de imagem quando houver foto; nenhuma informação sensível da criança.
 - [ ] Um único CTA.
 - [ ] A peça parece claramente desta escola.
 

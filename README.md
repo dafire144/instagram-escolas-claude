@@ -25,11 +25,15 @@ O instalador:
 
 - posts estáticos em 1080 x 1350;
 - carrosséis com quantidade variável de telas;
+- modalidade de cotidiano, baseada em fotos reais;
+- modalidade informativa, com listas, passos, comparações, explicações e avisos, com foto opcional;
 - safras com qualquer quantidade de publicações;
 - planejamento editorial para evitar repetição;
 - legenda em Markdown;
 - manifesto das fotos e layouts;
 - auditoria de pessoas.
+
+O [guia do formato informativo](docs/FORMATO-INFORMATIVO.md) explica a estrutura e a diferença entre conteúdo educativo e comunicado institucional. A informação comanda a arte; não é necessário incluir criança ou cena de atividade para produzir um informativo.
 
 ## Segurança
 
@@ -52,13 +56,15 @@ Recomendação: manter qualquer remoto deste repositório como privado.
 powershell -ExecutionPolicy Bypass -File "scripts\setup.ps1"
 ```
 
-Depois, colocar as fotos autorizadas em:
+Para conteúdo com fotografia, colocar as fotos autorizadas em:
 
 ```text
 inputs/
 ├── aviaozinho/fotos/
 └── colibri/fotos/
 ```
+
+Informativos sem foto podem ser produzidos sem esse acervo. Quando uma foto for usada, todas as regras de autorização e enquadramento continuam valendo.
 
 ## Uso com o Claude
 
@@ -80,17 +86,23 @@ Crie 8 carrosséis para o Aviãozinho de Papel. Planeje uma safra variada a part
 Quero 5 carrosséis para o Colibri para o próximo mês. Use de 5 a 7 telas, varie ganchos e CTAs e não repita a mesma foto dominante em sequência.
 ```
 
+```text
+Crie um carrossel informativo para o Colibri sobre como ler os recados da escola, sem fotografias. Organize a explicação em 4 telas com título direto, pontos úteis e um CTA. Não invente regras, datas ou canais da escola.
+```
+
+Para avisos reais, fornecer os dados confirmados no pedido. Orientações sobre saúde ou desenvolvimento precisam de fonte confiável e validação pertinente antes de virarem arte.
+
 A skill está em `.claude/skills/gerar-posts-escolas/` e é carregada automaticamente quando o Claude é aberto neste projeto.
 
 Quando uma quantidade for informada, a skill entende o número como quantidade final. Um pedido de 10 carrosséis produz 10 carrosséis, não três alternativas para cada um.
 
 ## Fluxo técnico
 
-1. O Claude inspeciona as fotos.
-2. Cria um job JSON em `jobs/`.
+1. O Claude identifica a modalidade e a base do conteúdo. Se houver foto, inspeciona todas as pessoas.
+2. Cria um job JSON em `jobs/`. Informativos usam `content_type: "informative"`; jobs antigos preservam o cotidiano.
 3. Executa o gerador.
 4. O script valida quantidade e dimensões.
-5. O Claude abre todos os PNGs e audita as pessoas.
+5. O Claude abre todos os PNGs para conferir texto, logotipo e composição. Audita pessoas quando houver foto; sem fotos, registra revisão fotográfica não aplicável.
 6. O resultado fica em `outputs/`.
 
 Execução manual:
@@ -110,6 +122,7 @@ powershell -ExecutionPolicy Bypass -File ".claude\skills\gerar-posts-escolas\scr
 ```text
 .claude/skills/gerar-posts-escolas/  Skill do Claude
 assets/                              Logos e fontes
+docs/                                Estrutura dos formatos
 inputs/                              Fotos locais, nunca versionadas
 jobs/                                Briefings técnicos locais
 manuais-de-marca/                    Diretrizes e tokens
@@ -126,3 +139,7 @@ powershell -ExecutionPolicy Bypass -File "scripts\install-skill.ps1"
 ```
 
 Mesmo instalada globalmente, executar a skill com o Claude aberto na raiz deste repositório.
+
+## Versão das diretrizes
+
+Manuais Markdown e tokens v1.4, de 12/10/2026, incluem o formato informativo. Os PDFs existentes continuam como registro visual v1.3, sem regeneração nesta entrega. Demonstrações do novo formato são materiais de avaliação visual, sem publicação ou aprovação final presumida.

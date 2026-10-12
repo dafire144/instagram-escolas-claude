@@ -16,23 +16,27 @@ Entregar exatamente a quantidade solicitada.
 
 Criar `PLANO-SAFRA.md` antes dos jobs:
 
-| Nº | Tema | Cena real | Pilar | Gancho | Emoção | CTA | Foto dominante | Layout de capa |
-|---:|---|---|---|---|---|---|---|---|
-| 01 | tema | cena | pilar | tipo | emoção | CTA | arquivo | layout |
+| Nº | Modalidade | Tema | Cena ou dúvida | Fonte/briefing | Pilar | Gancho | CTA | Foto dominante | Layout de capa |
+|---:|---|---|---|---|---|---|---|---|---|
+| 01 | cotidiano ou informativo | tema | base da peça | referência | pilar | tipo | CTA | arquivo ou sem foto | layout |
+
+No cotidiano, registrar também a emoção dominante. No informativo, registrar a base que confirma a informação e ler `formato-informativo.md`. Dados essenciais de comunicados ainda ausentes bloqueiam a arte final dessa peça, sem impedir trabalho independente nas demais.
 
 Portões da matriz:
 
 - uma tese diferente por linha;
 - nenhum tipo de gancho repetido em sequência;
-- nenhuma emoção repetida mais de duas vezes;
+- no cotidiano, nenhuma emoção repetida mais de duas vezes;
 - nenhum CTA repetido em sequência;
-- nenhuma foto dominante repetida em sequência;
+- nenhuma foto dominante repetida em sequência nas publicações fotográficas;
 - não usar o mesmo título com palavras trocadas;
 - dentro de cada carrossel, não repetir layout enquanto houver outro layout compatível disponível;
-- alternar carrosséis de 5, 6 e 7 telas quando o briefing não fixar a quantidade;
+- ajustar a quantidade à utilidade: cotidiano normalmente 5 a 7 telas; informativo normalmente 4 a 7. Não criar telas apenas para variar o número;
 - manter a voz e os territórios da escola.
 
 ## Seleção de fotos
+
+Aplicar apenas às publicações que usam fotografia. Informativos sem foto não dependem de acervo nem exigem foto dominante no plano.
 
 1. Abrir todas as candidatas uma única vez.
 2. Criar uma lista de aprovadas e rejeitadas com motivo.
@@ -84,8 +88,8 @@ Depois da renderização:
 
 1. Conferir se o número de pastas finais é igual ao pedido.
 2. Abrir todos os PNGs em tamanho real.
-3. Contar todas as pessoas em cada arte.
-4. Conferir cabeça, rosto, mãos principais, texto e logotipo.
+3. Contar todas as pessoas nas artes com foto; nas demais, registrar revisão fotográfica não aplicável.
+4. Conferir texto e logotipo em todas; cabeça, rosto e mãos principais quando houver foto. Em informativos, conferir também correspondência com a fonte ou briefing.
 5. Comparar capas lado a lado para detectar repetição.
 6. Ler apenas as headlines em sequência para detectar mesmice.
 7. Criar `AUDITORIA-LOTE.md`.

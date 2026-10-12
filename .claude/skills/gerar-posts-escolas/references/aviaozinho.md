@@ -31,9 +31,15 @@ Usar de 3 a 5 cores por arte.
 
 Avião de papel, rota pontilhada, nuvens, estrelas, arco-íris, papel, fita, polaroide, lápis e rabiscos.
 
-## Layouts disponíveis
+## Layouts de cotidiano
 
 `cover`, `split`, `polaroid`, `color`, `question`, `cta`, `poster`.
+
+## Informativos
+
+Usar a mesma paleta e tipografia em cartões de papel claro, curvas e pequenos detalhes de papel. A informação é o elemento principal; foto opcional. Escrever de forma próxima e direta, sem obrigar metáfora de voo numa orientação.
+
+Layouts: `info-cover`, `info-explain`, `info-list`, `info-steps`, `info-compare`, `info-summary`, `info-notice`. Ver `formato-informativo.md`.
 
 ## Não usar
 

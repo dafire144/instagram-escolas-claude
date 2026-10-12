@@ -1,5 +1,7 @@
 # Segurança fotográfica
 
+Aplicar sempre que houver fotografia, em qualquer modalidade. Informativos podem ser feitos sem foto; nesse caso, não exigir acervo nem `safe_photo_reviewed`, e registrar revisão fotográfica não aplicável. A modalidade de cotidiano continua exigindo foto real.
+
 ## Contrato do acervo
 
 Considerar autorizadas apenas as fotos colocadas pelo proprietário em `inputs/<escola>/fotos/`. Não copiar essas fotos para a skill, para o Git ou para serviços externos.

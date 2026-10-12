@@ -1,6 +1,8 @@
 # Copy e variedade
 
-## Carrossel
+Escolher a modalidade antes de aplicar a estrutura. As orientações de cena e fotografia abaixo são de **cotidiano**. Para dúvidas, orientações e avisos, usar `formato-informativo.md`: foto opcional, resposta direta e fonte ou briefing confirmado.
+
+## Carrossel de cotidiano
 
 Usar de 5 a 7 telas:
 
@@ -15,14 +17,14 @@ Adicionar ou remover uma tela quando a história pedir. Não preencher por obrig
 
 Se o usuário definir a quantidade de telas, respeitar a quantidade pedida.
 
-## Estático
+## Estático de cotidiano
 
 - Headline de até 8 palavras.
 - Subheadline de até 16 palavras.
 - Uma foto herói.
 - Um CTA na legenda.
 
-## Legenda
+## Legenda de cotidiano
 
 Usar de 80 a 150 palavras:
 
@@ -33,14 +35,17 @@ Usar de 80 a 150 palavras:
 
 ## Anti-repetição
 
-Rotacionar:
+Rotacionar conforme a modalidade:
 
 - layout;
 - cor dominante;
 - tipo de motivo;
-- posição e tamanho da foto;
+- posição e tamanho da foto, quando houver;
 - pergunta, afirmação, cena ou convite;
-- emoção dominante.
+- emoção dominante no cotidiano;
+- forma de explicar no informativo: lista, passos, comparação ou resposta curta.
+
+Em informativos, a organização serve à informação. Não forçar decoração, emoção, foto ou troca de layout quando isso prejudicar a leitura.
 
 Não rotacionar:
 

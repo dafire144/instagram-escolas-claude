@@ -31,9 +31,15 @@ Usar de 3 a 5 cores por arte.
 
 Bolhas, gotas, pétalas, ondas, blocos, arcos, confetes e formas arredondadas.
 
-## Layouts disponíveis
+## Layouts de cotidiano
 
 `cover`, `split`, `steps`, `group`, `question`, `cta`, `poster`.
+
+## Informativos
+
+Usar a mesma paleta e tipografia em blocos, faixas, números e formas arredondadas sobre creme ou branco. A informação é o elemento principal; foto opcional. Escrever com clareza e acolhimento, sem metáforas de voo, céu ou asas.
+
+Layouts: `info-cover`, `info-explain`, `info-list`, `info-steps`, `info-compare`, `info-summary`, `info-notice`. Ver `formato-informativo.md`.
 
 ## Não usar
 

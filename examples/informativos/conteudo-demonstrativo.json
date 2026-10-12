@@ -1,0 +1,240 @@
+{
+  "usage": "demonstracao-editorial",
+  "description": "Quatro exemplos de posts informativos para demonstrar a estrutura. Não são comunicados oficiais das escolas e não anunciam datas, eventos ou políticas.",
+  "publications": [
+    {
+      "school": "aviaozinho",
+      "format": "carousel",
+      "slug": "aviaozinho-identificar-pertences",
+      "title": "De quem é esta garrafinha?",
+      "caption": "Na hora de conferir a mochila, o detalhe pode estar na tampa, na peça de roupa que ficou dobrada ou no pote dentro da lancheira. Identificar só o conjunto deixa essas partes sem referência quando se separam.\n\nNão precisa haver uma etiqueta igual em tudo. O material pode variar conforme o objeto; a escrita deve continuar fácil de ler. Havendo uma orientação da escola, ela é o ponto de partida.\n\nSalve este guia para revisar os pertences.",
+      "slides": [
+        {
+          "layout": "info-cover",
+          "eyebrow": "CUIDADOS COM OS PERTENCES",
+          "title": "De quem é esta garrafinha?",
+          "body": "Um guia simples para identificar o que vai na mochila."
+        },
+        {
+          "layout": "info-explain",
+          "eyebrow": "POR ONDE COMEÇAR",
+          "title": "O nome precisa aparecer",
+          "body": "Garrafinhas e casacos podem ser parecidos. Uma identificação legível ajuda a conferir a quem cada peça pertence."
+        },
+        {
+          "layout": "info-list",
+          "eyebrow": "PEÇA POR PEÇA",
+          "title": "O que vale conferir",
+          "body": "Pense também no que fica separado durante o uso.",
+          "items": [
+            {
+              "title": "Roupas",
+              "body": "Casaco, camiseta extra e outras peças, uma a uma."
+            },
+            {
+              "title": "Tampa e pote",
+              "body": "Os dois precisam ser reconhecidos quando estão separados."
+            },
+            {
+              "title": "Dentro do estojo",
+              "body": "Considere também os objetos que saem dele."
+            }
+          ]
+        },
+        {
+          "layout": "info-compare",
+          "eyebrow": "DOIS EXEMPLOS",
+          "title": "O lugar muda com o objeto",
+          "body": "A identificação precisa estar acessível na hora de conferir.",
+          "items": [
+            {
+              "title": "Roupas",
+              "body": "A etiqueta interna pode receber o nome."
+            },
+            {
+              "title": "Potes e garrafas",
+              "body": "Escolha uma área que permita ler o nome com facilidade."
+            }
+          ]
+        },
+        {
+          "layout": "info-steps",
+          "eyebrow": "NA PRÁTICA",
+          "title": "Antes de colocar na mochila",
+          "body": "Uma conferência curta, com cada item em mãos.",
+          "items": [
+            {
+              "title": "Separe",
+              "body": "Reúna o que a criança costuma levar."
+            },
+            {
+              "title": "Identifique",
+              "body": "Escreva o nome conforme a orientação da escola, quando houver."
+            },
+            {
+              "title": "Revise",
+              "body": "Confira se a escrita continua legível depois do uso."
+            }
+          ]
+        },
+        {
+          "layout": "info-summary",
+          "eyebrow": "PARA CONSULTAR DEPOIS",
+          "title": "Nome legível, peça por peça",
+          "body": "Da tampa ao casaco, cada parte precisa de uma identificação que possa ser conferida.",
+          "note": "Salve este guia para revisar os pertences."
+        }
+      ]
+    },
+    {
+      "school": "aviaozinho",
+      "format": "static",
+      "slug": "aviaozinho-checklist-recados",
+      "title": "Recado lido. E agora?",
+      "caption": "Ler uma mensagem no meio de outra tarefa nem sempre permite resolver o que ela pede na mesma hora. Um recado pode trazer só uma informação; outro pode depender de resposta ou de um preparo em casa.\n\nO cuidado é separar o que já foi entendido do que ainda precisa ser feito. Quando falta um detalhe, a dúvida pode ser levada pelo canal indicado pela escola, sem presumir um horário ou uma orientação.\n\nSalve este checklist para consultar nos próximos recados.",
+      "slides": [
+        {
+          "layout": "info-notice",
+          "eyebrow": "NA ROTINA DA FAMÍLIA",
+          "title": "Recado lido. E agora?",
+          "body": "Quatro pontos para conferir antes de fechar a mensagem.",
+          "items": [
+            {
+              "title": "Assunto",
+              "body": "A mensagem se aplica à turma da criança?"
+            },
+            {
+              "title": "Prazo",
+              "body": "Há data ou prazo para anotar?"
+            },
+            {
+              "title": "Ação",
+              "body": "Precisa responder, separar algo ou apenas acompanhar?"
+            },
+            {
+              "title": "Dúvida",
+              "body": "Ficou alguma informação por esclarecer?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "colibri",
+      "format": "carousel",
+      "slug": "colibri-conversa-com-a-escola",
+      "title": "Conversa com a escola: o que levar?",
+      "caption": "Não é preciso chegar à escola com uma conclusão pronta. A família conhece cenas de casa; a equipe pode acrescentar o que observa em outro contexto.\n\nUma conversa também pode terminar com uma pergunta em aberto. Nesse caso, vale sair sabendo o que será observado e como o assunto será retomado. O roteiro ajuda a organizar as dúvidas, mas não precisa virar um questionário: há espaço para escutar, perguntar de novo e ajustar o foco.\n\nSalve este roteiro para o próximo encontro.",
+      "slides": [
+        {
+          "layout": "info-cover",
+          "eyebrow": "FAMÍLIA E ESCOLA",
+          "title": "Conversa com a escola: o que levar?",
+          "body": "Observações, perguntas e espaço para ouvir. Veja como se preparar."
+        },
+        {
+          "layout": "info-explain",
+          "eyebrow": "O PONTO DE PARTIDA",
+          "title": "Comece pelo que você observou",
+          "body": "Um episódio concreto dá contexto à dúvida: o que aconteceu, quando e o que você gostaria de entender."
+        },
+        {
+          "layout": "info-compare",
+          "eyebrow": "UM EXEMPLO DE PERGUNTA",
+          "title": "Uma pergunta pode ficar mais clara",
+          "body": "O contexto mostra à equipe qual situação você quer conhecer.",
+          "items": [
+            {
+              "title": "Pergunta ampla",
+              "body": "Como está a participação?"
+            },
+            {
+              "title": "Com contexto",
+              "body": "Como participa das brincadeiras em grupo? Costuma propor ou acompanhar as ideias?"
+            }
+          ]
+        },
+        {
+          "layout": "info-list",
+          "eyebrow": "SEU ROTEIRO",
+          "title": "Três pontos para anotar",
+          "body": "Bastam algumas linhas para organizar o que você quer dizer.",
+          "items": [
+            {
+              "title": "O assunto",
+              "body": "Escolha o que você gostaria de conversar."
+            },
+            {
+              "title": "Uma situação",
+              "body": "Registre um exemplo, sem comparar crianças."
+            },
+            {
+              "title": "Sua pergunta",
+              "body": "Escreva o que espera entender com a equipe."
+            }
+          ]
+        },
+        {
+          "layout": "info-steps",
+          "eyebrow": "DURANTE O ENCONTRO",
+          "title": "Antes de encerrar a conversa",
+          "body": "As observações da família e da equipe entram na conversa.",
+          "items": [
+            {
+              "title": "Ouça o outro contexto",
+              "body": "O que a equipe observa na escola?"
+            },
+            {
+              "title": "Retome a dúvida",
+              "body": "Confira se a pergunta principal foi respondida."
+            },
+            {
+              "title": "Combine o próximo passo",
+              "body": "Se houver algo a acompanhar, definam como retomar o assunto."
+            }
+          ]
+        },
+        {
+          "layout": "info-summary",
+          "eyebrow": "PARA CONSULTAR DEPOIS",
+          "title": "Uma conversa, pontos bem definidos",
+          "body": "O que foi observado, o que ficou esclarecido e o que merece uma próxima conversa.",
+          "note": "Salve este roteiro para o próximo encontro."
+        }
+      ]
+    },
+    {
+      "school": "colibri",
+      "format": "static",
+      "slug": "colibri-mensagem-com-contexto",
+      "title": "Um recado claro começa pelo contexto",
+      "caption": "Uma dúvida pode caber em poucas linhas e ainda deixar claro a que ela se refere. A mensagem original, o assunto e uma pergunta direta dão à equipe um ponto de partida para responder.\n\nSe houver mais de um tema, separar as perguntas ajuda a perceber qual delas ainda ficou em aberto. Assuntos que precisam de uma conversa mais longa podem ser combinados com a equipe pelo canal indicado pela escola.\n\nSalve este checklist para preparar sua próxima mensagem.",
+      "slides": [
+        {
+          "layout": "info-notice",
+          "eyebrow": "PARA FALAR COM A EQUIPE",
+          "title": "Um recado claro começa pelo contexto",
+          "body": "Antes de enviar uma dúvida, confira estes pontos.",
+          "items": [
+            {
+              "title": "Contexto",
+              "body": "Diga a qual recado ou situação você se refere."
+            },
+            {
+              "title": "Pergunta",
+              "body": "Escreva o ponto que precisa esclarecer."
+            },
+            {
+              "title": "Identificação",
+              "body": "Inclua o nome da criança e a turma, se necessário."
+            },
+            {
+              "title": "Canal",
+              "body": "Use o contato indicado pela escola."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
