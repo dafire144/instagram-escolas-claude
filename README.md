@@ -21,6 +21,32 @@ O instalador:
 - extrai em `Documentos\instagram-escolas`;
 - executa a configuração inicial.
 
+## Pacote para o dono usar no Claude
+
+O arquivo atual é [instagram-escolas-claude-v1.3.0.zip](dist/instagram-escolas-claude-v1.3.0.zip), atualizado em 12/10/2026 com o formato informativo aprovado. Ele inclui a skill, as instruções `CLAUDE.md`, os manuais, logos, fontes, o gerador e exemplos das duas escolas.
+
+1. Extrair o ZIP em uma pasta no computador Windows.
+2. Abrir o Claude Code nessa pasta, que contém `CLAUDE.md` e `package.json`.
+3. Pedir ao Claude para executar a configuração inicial e criar o conteúdo desejado.
+
+Pedido inicial pronto para usar:
+
+```text
+Leia o CLAUDE.md e a skill gerar-posts-escolas deste projeto. Execute a configuração inicial em scripts/setup.ps1. Depois gere um post informativo estático para o Colibri sobre brincadeiras em família no Dia das Crianças, usando o tema dia-das-criancas, sem fotografias. Siga a direção visual aprovada: áreas de cor, cartões variados e ilustrações de brincadeiras ligadas ao conteúdo. Entregue a arte em PNG 1080 x 1350 e a legenda. Não invente eventos, datas, horários ou regras da escola e não publique.
+```
+
+O pacote executa localmente com Claude Code, Node.js e Chrome. Anexar somente o `CLAUDE.md` a uma conversa não fornece o gerador nem os demais arquivos. A organização da skill segue a [documentação oficial do Claude Code](https://code.claude.com/docs/en/skills).
+
+### Se o dono já tiver a versão anterior
+
+O instalador não sobrescreve pastas existentes. Para usar o ZIP atualizado com os dados antigos:
+
+1. Extrair o ZIP em uma pasta nova, mantendo a pasta anterior guardada.
+2. Copiar as pastas locais `inputs/`, `jobs/` e `outputs/` da instalação anterior para a nova, para preservar fotos, briefings, histórico e artes.
+3. Abrir o Claude Code na nova pasta e executar `scripts/setup.ps1`. Se usava a skill global opcional, executar também `scripts/install-skill.ps1` nessa nova pasta.
+
+Personalizações no motor ou nas instruções antigas devem ser comparadas antes de transferir; não substituir os arquivos novos do pacote por versões antigas.
+
 ## O que o sistema gera
 
 - posts estáticos em 1080 x 1350;
@@ -35,7 +61,7 @@ O instalador:
 
 O [guia do formato informativo](docs/FORMATO-INFORMATIVO.md) explica a estrutura e a diferença entre conteúdo educativo e comunicado institucional. A informação comanda a arte; não é necessário incluir criança ou cena de atividade para produzir um informativo.
 
-**Direção visual vigente:** informativos também são coloridos e lúdicos, com objetos ligados ao assunto. Use `theme` (`pertences`, `recados`, `familia-escola`, `dia-das-criancas` ou `escola`) para selecionar o repertório ilustrado. O tema pode variar por tela. A demonstração inicial sóbria foi revista a pedido do Sr. Davi. `npm run examples:informative` gera a galeria v2 com seis publicações/16 artes, incluindo Dia das Crianças, em `outputs/informativos-v2-2026-10-12/`.
+**Direção visual aprovada em 12/10/2026:** informativos também são coloridos e lúdicos, com objetos ligados ao assunto. Use `theme` (`pertences`, `recados`, `familia-escola`, `dia-das-criancas` ou `escola`) para selecionar o repertório ilustrado. O tema pode variar por tela. A demonstração inicial sóbria foi substituída pela v2 aprovada. `npm run examples:informative` gera a galeria v2 com seis publicações/16 artes, incluindo Dia das Crianças, em `outputs/informativos-v2-2026-10-12/`.
 
 ## Segurança
 
@@ -144,4 +170,4 @@ Mesmo instalada globalmente, executar a skill com o Claude aberto na raiz deste 
 
 ## Versão das diretrizes
 
-Manuais Markdown e tokens v1.4, de 12/10/2026, incluem o formato informativo. Os PDFs existentes continuam como registro visual v1.3, sem regeneração nesta entrega. Demonstrações do novo formato são materiais de avaliação visual, sem publicação ou aprovação final presumida.
+Manuais Markdown e tokens v1.4, de 12/10/2026, incluem o formato informativo. Os PDFs existentes continuam como registro visual v1.3, sem regeneração nesta entrega. O Sr. Davi aprovou a direção visual v2 em 12/10/2026. As demonstrações não são comunicados vigentes nem autorização de publicação; futuros dados institucionais precisam ser confirmados.

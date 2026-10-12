@@ -53,7 +53,7 @@ Escolher `theme` no job conforme o assunto; uma tela pode usar `theme` próprio.
 
 Os elementos participam da composição e variam de escala, posição e combinação entre telas e assuntos. Não depender do mesmo confete ou ornamento genérico em toda peça. Para um tema novo, preparar repertório próprio antes de produzir; não forçar objetos sem relação só porque já estão disponíveis no motor.
 
-O feedback de 12/10/2026 substitui a direção visual da demonstração v1. Ela não é referência aprovada; as novas artes devem expressar essa direção temática e colorida.
+O feedback de 12/10/2026 substitui a direção visual da demonstração v1. Ela não é referência aprovada. A direção temática e colorida da v2 foi aprovada pelo Sr. Davi em 12/10/2026 e passa a orientar os novos informativos. Os seis exemplos em `examples/informativos/` podem ser reproduzidos com `npm run examples:informative`. A aprovação visual não confirma eventos, regras ou outros dados institucionais e não autoriza publicação.
 
 ## Escrita
 
