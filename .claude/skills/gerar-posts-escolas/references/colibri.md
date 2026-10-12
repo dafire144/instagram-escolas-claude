@@ -39,6 +39,8 @@ Bolhas, gotas, pétalas, ondas, blocos, arcos, confetes e formas arredondadas.
 
 Usar a mesma paleta e tipografia em blocos, faixas, números e formas arredondadas sobre creme ou branco. A informação é o elemento principal; foto opcional. Escrever com clareza e acolhimento, sem metáforas de voo, céu ou asas.
 
+Preservar a energia infantil: áreas de cor visíveis, cartões e objetos ilustrados relacionados ao tema. Dia das Crianças pede brinquedos, blocos e materiais de criação; recados pede bilhetes e cadernos. Variar as composições e evitar a página quase vazia com o mesmo ornamento de rodapé.
+
 Layouts: `info-cover`, `info-explain`, `info-list`, `info-steps`, `info-compare`, `info-summary`, `info-notice`. Ver `formato-informativo.md`.
 
 ## Não usar

@@ -31,13 +31,29 @@ Não comparar crianças nem empilhar texto para caber em uma única arte. Os lim
 
 ## Design e fotografia
 
-- Preservar paleta, fontes e motivos da escola, com três a cinco cores por peça.
-- Priorizar texto legível, respiro e agrupamento por função. A decoração infantil apoia a leitura do adulto.
+- Preservar paleta, fontes e motivos da escola, com três a cinco cores por peça, áreas de cor visíveis, formas lúdicas e cartões orgânicos.
+- Manter a estética infantil viva dos posts de cotidiano. Texto legível, respiro e agrupamento por função convivem com objetos ilustrados expressivos que comunicam o assunto. Clareza não significa sobriedade corporativa ou uma página quase vazia.
 - Aviãozinho: papel claro, azul céu/amarelo, Fredoka e Nunito; cartões, curvas e detalhes leves de papel.
 - Colibri: creme/branco, azul profundo/laranja, Baloo 2 e Nunito; blocos, faixas, números e formas arredondadas. Sem metáforas de voo, céu ou asas.
 - Foto é opcional. Usar apenas quando acrescentar informação, nunca como preenchimento ou obrigação.
 - Se houver foto, usar `photo` na tela, ou no topo do job estático, e cumprir `seguranca-fotografica.md`. Declarar `safe_photo_reviewed: true` somente depois da inspeção real.
 - Sem foto, omitir `photo` e `safe_photo_reviewed`. Registrar a auditoria fotográfica como não aplicável; o manifesto deve ter lista de fotos vazia.
+
+## Tema visual
+
+Escolher `theme` no job conforme o assunto; uma tela pode usar `theme` próprio. O tema define o repertório ilustrado e preserva a identidade da escola. "Mais animado" significa vivo e lúdico em uma arte estática, sem criar vídeo ou animação.
+
+| `theme` | Objetos e associações |
+|---|---|
+| `escola` | Repertório escolar geral; padrão para jobs antigos sem tema |
+| `pertences` | Mochila, garrafinha e etiqueta |
+| `recados` | Caderno, bilhete e calendário |
+| `familia-escola` | Conversa e livro |
+| `dia-das-criancas` | Bola, blocos, lápis e brincadeiras |
+
+Os elementos participam da composição e variam de escala, posição e combinação entre telas e assuntos. Não depender do mesmo confete ou ornamento genérico em toda peça. Para um tema novo, preparar repertório próprio antes de produzir; não forçar objetos sem relação só porque já estão disponíveis no motor.
+
+O feedback de 12/10/2026 substitui a direção visual da demonstração v1. Ela não é referência aprovada; as novas artes devem expressar essa direção temática e colorida.
 
 ## Escrita
 

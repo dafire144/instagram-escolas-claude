@@ -35,6 +35,8 @@ O instalador:
 
 O [guia do formato informativo](docs/FORMATO-INFORMATIVO.md) explica a estrutura e a diferença entre conteúdo educativo e comunicado institucional. A informação comanda a arte; não é necessário incluir criança ou cena de atividade para produzir um informativo.
 
+**Direção visual vigente:** informativos também são coloridos e lúdicos, com objetos ligados ao assunto. Use `theme` (`pertences`, `recados`, `familia-escola`, `dia-das-criancas` ou `escola`) para selecionar o repertório ilustrado. O tema pode variar por tela. A demonstração inicial sóbria foi revista a pedido do Sr. Davi. `npm run examples:informative` gera a galeria v2 com seis publicações/16 artes, incluindo Dia das Crianças, em `outputs/informativos-v2-2026-10-12/`.
+
 ## Segurança
 
 Fotos de crianças não fazem parte do Git. As pastas `inputs/`, `outputs/`, `raw/`, `jobs/` e `tmp/` são protegidas pelo `.gitignore`.

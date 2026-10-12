@@ -151,6 +151,8 @@ Conversa de escola para família: calorosa, curiosa, simples e verdadeira.
 
 ## Formato informativo
 
+**Direção visual corrigida em 12/10/2026:** manter o visual infantil vivo dos outros posts, com áreas de cor, cartões de papel e objetos ilustrados ligados ao assunto. Dia das Crianças pede elementos de brincadeira; pertences pede mochila, garrafinha e etiquetas. Variar as composições e dar presença aos elementos temáticos. A primeira proposta sóbria, quase vazia e com pequeno ornamento fixo, não foi aprovada.
+
 Modalidade para esclarecer dúvidas, explicar assuntos e transmitir comunicados. Mantém a identidade da escola e o formato 1080 x 1350, com texto, listas, passos, comparação ou aviso como elemento principal. Foto opcional; não incluir criança como decoração.
 
 - Educativo: pergunta clara, resposta, pontos úteis e aplicação. Alegações sobre saúde, segurança ou desenvolvimento exigem fonte confiável e validação pertinente.

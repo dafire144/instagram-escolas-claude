@@ -12,6 +12,8 @@ Criar publicações prontas em PNG, com copy, manifesto e auditoria, usando o ge
 - **Cotidiano:** parte de uma cena real. Foto real autorizada é obrigatória; o motor legado usa uma por tela.
 - **Informativo:** parte de uma dúvida ou informação útil confirmada para famílias. Usa `content_type: "informative"`, com tipografia, listas, passos, comparação ou aviso. Foto é opcional e entra somente se esclarecer o assunto. Ler `references/formato-informativo.md`.
 
+O informativo mantém a estética infantil viva: três a cinco cores da marca, áreas de cor visíveis, formas lúdicas e objetos ilustrados ligados ao tema. Definir `theme` conforme o assunto; por exemplo, bola e blocos no Dia das Crianças ou caderno e bilhete em recados. Clareza vem da hierarquia, sem reduzir a peça a texto numa página quase vazia. "Animado", neste formato, significa vivo e lúdico em arte estática.
+
 As modalidades coexistem. Não converter um post de cotidiano em informativo só para contornar uma foto reprovada. Um informativo sem fotos dispensa a triagem do acervo; sua revisão fotográfica é registrada como não aplicável.
 
 ## Preparação obrigatória
@@ -29,7 +31,7 @@ As modalidades coexistem. Não converter um post de cotidiano em informativo só
 ## Fluxo de publicação única
 
 1. Definir tema, objetivo, número de telas, tipo de gancho e CTA.
-2. No cotidiano, selecionar fotos em `inputs/<escola>/fotos/`. No informativo, definir a informação principal e a organização visual; selecionar foto somente quando útil.
+2. No cotidiano, selecionar fotos em `inputs/<escola>/fotos/`. No informativo, definir a informação principal, a organização visual e o repertório de objetos do tema; selecionar foto somente quando útil.
 3. Quando houver foto, abrir e analisar cada candidata em tamanho real.
 4. Rejeitar qualquer foto com pessoa parcial no arquivo original, mesmo pequena ou desfocada ao fundo. Se aparecer corpo sem cabeça inteira, a foto inteira está reprovada.
 5. Escrever a copy, executar os cinco passes editoriais e selecionar layouts distintos. Consultar `references/job-schema.md`.
@@ -102,7 +104,7 @@ Antes de criar, consultar os `manifest.json` das últimas publicações em `outp
 - No cotidiano, não repetir o mesmo layout de capa em duas publicações consecutivas. No informativo, variar composição e abordagem conforme o assunto, preservando consistência quando útil para avisos.
 - Não repetir a mesma combinação de motivos em telas consecutivas.
 - No cotidiano, alternar foto ampla, moldura, bloco, pergunta, colagem e composição modular.
-- No informativo, alternar explicação, lista, passos, comparação e síntese conforme o assunto. Não inserir foto ou enfeite para cumprir uma rotação.
+- No informativo, alternar explicação, lista, passos, comparação e síntese conforme o assunto. Variar os objetos temáticos e sua composição entre telas; não repetir o mesmo confete ou ornamento genérico em todos os assuntos. Foto continua opcional.
 - Variar o comprimento da headline e a composição; no cotidiano, variar também emoção e posição da foto.
 - Preservar cores, tipografia e voz da escola.
 

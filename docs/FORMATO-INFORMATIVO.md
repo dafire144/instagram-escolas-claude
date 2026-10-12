@@ -14,7 +14,7 @@ O sistema passa a ter duas modalidades que convivem no feed. O formato de cotidi
 | Sequência | Cena, descoberta, processo, família | Pergunta, resposta, pontos úteis, ação |
 | Escrita | Observação concreta e afetiva | Direta, acolhedora e precisa |
 
-Ambos preservam identidade, cores, fontes e dimensões de 1080 x 1350. O informativo pode ser inteiramente tipográfico. Não precisa de uma criança como decoração, nem da narrativa de uma atividade que não aconteceu.
+Ambos preservam identidade, cores, fontes e dimensões de 1080 x 1350. O informativo pode dispensar fotografia e usar objetos ilustrados que ajudem a comunicar o assunto. Não precisa de uma criança como decoração, nem da narrativa de uma atividade que não aconteceu.
 
 ## Duas aplicações informativas
 
@@ -62,7 +62,20 @@ Escolher a composição pelo conteúdo. Não usar todas em toda publicação. Fo
 | Organização | Cartões e detalhes de papel, curvas e pequenos rabiscos | Blocos, faixas, números e formas arredondadas |
 | Voz informativa | Próxima, curiosa e clara | Acolhedora, segura e objetiva |
 
-Manter de três a cinco cores por arte, com decoração discreta e contraste de leitura. Os códigos infantis ficam no design; o texto conversa com adultos. Metáforas não substituem uma orientação. No Colibri, continuam vedadas as metáforas de voo, céu e asas.
+Manter de três a cinco cores por arte, áreas de cor visíveis, formas lúdicas e cartões orgânicos, com contraste de leitura. A estética continua infantil, viva e colorida como nos posts de cotidiano; o texto conversa com adultos. Metáforas não substituem uma orientação. No Colibri, continuam vedadas as metáforas de voo, céu e asas.
+
+### Elementos que mostram o assunto
+
+Os objetos e as ilustrações participam da composição e ajudam a reconhecer o tema. Variar sua posição, escala e combinação entre telas, mantendo espaço para o texto.
+
+| Tema | Repertório visual |
+|---|---|
+| Dia das Crianças | Bola, blocos, lápis e brincadeiras |
+| Recados | Caderno, bilhete e calendário |
+| Pertences | Mochila, garrafinha e etiqueta |
+| Família e escola | Conversa e livro |
+
+O tema orienta as escolhas: confetes e ornamentos genéricos repetidos não bastam. Clareza deve vir da hierarquia e do contraste, sem transformar a peça em uma página corporativa quase vazia. Aqui, "mais animado" significa uma arte estática viva e lúdica; não implica vídeo ou animação.
 
 ## Copy e legenda
 
@@ -74,8 +87,8 @@ Manter de três a cinco cores por arte, com decoração discreta e contraste de 
 
 ## Produção e estado dos materiais
 
-O gerador usa `content_type: "informative"`; jobs antigos sem esse campo mantêm o funcionamento de cotidiano. O contrato completo está na [referência do job](../.claude/skills/gerar-posts-escolas/references/job-schema.md), e o fluxo editorial na [referência informativa da skill](../.claude/skills/gerar-posts-escolas/references/formato-informativo.md).
+O gerador usa `content_type: "informative"`; jobs antigos sem esse campo mantêm o funcionamento de cotidiano. O campo opcional `theme` escolhe o repertório visual do job e pode ser sobrescrito em uma tela. Temas disponíveis: `escola` (padrão), `pertences`, `recados`, `familia-escola` e `dia-das-criancas`. Um tema novo precisa de repertório próprio antes da produção. O contrato completo está na [referência do job](../.claude/skills/gerar-posts-escolas/references/job-schema.md), e o fluxo editorial na [referência informativa da skill](../.claude/skills/gerar-posts-escolas/references/formato-informativo.md).
 
-Os exemplos desta evolução são demonstrações para avaliação visual. Não representam aprovação final do usuário, comunicado vigente ou autorização de publicação.
+O feedback do Sr. Davi em 12/10/2026 substitui a direção visual da primeira demonstração: os informativos precisam de mais vida e de elementos ligados ao assunto, como no Dia das Crianças. As artes v1 não foram aprovadas como referência final. As demonstrações revisadas continuam sujeitas à avaliação visual e não representam comunicado vigente ou autorização de publicação.
 
 Os manuais Markdown e tokens passam a v1.4. Os PDFs existentes permanecem como registro visual v1.3; não foram regenerados nesta atualização. Ao reconstruí-los futuramente, preservar estas novas regras nas fontes do gerador de manuais.

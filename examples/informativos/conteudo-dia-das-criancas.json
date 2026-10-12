@@ -1,0 +1,66 @@
+{
+  "usage": "demonstracao-editorial",
+  "description": "Dois exemplos informativos com tema de Dia das Crianças. Sugerem brincadeiras em família, sem anunciar eventos, datas ou regras das escolas.",
+  "publications": [
+    {
+      "school": "aviaozinho",
+      "format": "static",
+      "theme": "dia-das-criancas",
+      "slug": "aviaozinho-dia-das-criancas-imaginacao",
+      "title": "Papel, histórias e faz de conta",
+      "caption": "Um papel pode virar mapa. Uma caixa pode receber uma cidade desenhada. E uma história pode começar com um objeto escolhido por quem está brincando.\n\nNeste Dia das Crianças, o convite é inventar junto, sem precisar que o desenho fique bonito ou que a história faça sentido para os adultos. Se a brincadeira mudar de rumo, o final pode ser outro.\n\nSalve estas ideias para brincar em família.",
+      "slides": [
+        {
+          "layout": "info-notice",
+          "eyebrow": "DIA DAS CRIANÇAS",
+          "title": "Papel, histórias e faz de conta",
+          "body": "Três ideias para entrar na brincadeira com as crianças.",
+          "items": [
+            {
+              "title": "Desenho em dupla",
+              "body": "Uma pessoa começa o desenho. A outra inventa o que vem depois."
+            },
+            {
+              "title": "História surpresa",
+              "body": "Escolham um objeto e inventem juntos uma aventura para ele."
+            },
+            {
+              "title": "Caixa de histórias",
+              "body": "Uma caixa vira cenário. Vocês escolhem a história."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "colibri",
+      "format": "static",
+      "theme": "dia-das-criancas",
+      "slug": "colibri-dia-das-criancas-brincar-junto",
+      "title": "Quem vem brincar junto?",
+      "caption": "Quem vai escolher a primeira brincadeira? A resposta também pode fazer parte do encontro. Cada pessoa pode sugerir uma ideia, mudar uma regra ou entrar na construção que já começou.\n\nPara o Dia das Crianças, reunimos propostas que cabem em momentos diferentes: montar com blocos, fazer mímicas ou procurar cores pela casa. Os materiais e o espaço disponíveis ajudam a escolher por onde começar, sem precisar seguir uma ordem.\n\nCompartilhe com quem vai brincar junto.",
+      "slides": [
+        {
+          "layout": "info-notice",
+          "eyebrow": "DIA DAS CRIANÇAS",
+          "title": "Quem vem brincar junto?",
+          "body": "Três brincadeiras para escolher em família. Todo mundo pode entrar na roda.",
+          "items": [
+            {
+              "title": "Construção em equipe",
+              "body": "Juntem blocos e montem um lugar que vocês inventaram."
+            },
+            {
+              "title": "Mímica de animais",
+              "body": "Uma pessoa imita. As outras tentam adivinhar e depois trocam de vez."
+            },
+            {
+              "title": "Caça às cores",
+              "body": "Escolham uma cor e apontem objetos que combinem com ela."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

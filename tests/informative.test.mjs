@@ -6,8 +6,36 @@ import os from 'node:os';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { validateInformativeJob, buildSlideHtml, loadBrandAssets } from '../tools/informative_posts.mjs';
+import { themeIllustration, THEMES } from '../tools/informative_themes.mjs';
 
 const simple = (extra = {}) => ({ content_type: 'informative', school: 'colibri', format: 'static', slug: 'teste', title: 'Uma informação clara', body: 'Um recado para as famílias.', ...extra });
+
+test('tema padrão mantém jobs antigos e override da tela é explícito', async () => {
+  const old = await validateInformativeJob(simple());
+  assert.equal(old.theme, 'escola');
+  assert.equal(old.slides[0].theme, 'escola');
+  const themed = await validateInformativeJob(simple({ theme: 'pertences', slides: [{ layout: 'info-cover', title: 'Um recado', theme: 'recados' }] }));
+  assert.equal(themed.theme, 'pertences');
+  assert.equal(themed.slides[0].theme, 'recados');
+  await assert.rejects(validateInformativeJob(simple({ theme: '<script>tema</script>' })), /repertório/);
+  await assert.rejects(validateInformativeJob(simple({ slides: [{ layout: 'info-cover', title: 'Uma tela', theme: 'inexistente' }] })), /repertório/);
+});
+
+test('repertório temático varia objetos e preserva território visual do Colibri', () => {
+  for (const theme of THEMES) {
+    const first = themeIllustration(theme, 'colibri', 0, 'info-cover');
+    const second = themeIllustration(theme, 'colibri', 1, 'info-cover');
+    assert.ok(first.includes('<svg'));
+    assert.notEqual(first, second);
+    assert.notEqual(first, themeIllustration(theme, 'colibri', 0, 'info-list'));
+    assert.ok(!/data-object="(?:kite|plane|cloud)"/.test(first + second));
+  }
+  assert.match(themeIllustration('dia-das-criancas', 'colibri', 0, 'info-cover'), /data-object="ball"/);
+  const aviaoHoliday = themeIllustration('dia-das-criancas', 'aviaozinho', 0, 'info-notice');
+  assert.match(aviaoHoliday, /data-object="book"/);
+  assert.match(aviaoHoliday, /data-object="pencil"/);
+  assert.match(aviaoHoliday, /data-object="box"/);
+});
 
 test('informativo sem foto normaliza estático e dispensa revisão fotográfica', async () => {
   const job = await validateInformativeJob(simple());

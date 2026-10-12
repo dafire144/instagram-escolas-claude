@@ -84,7 +84,8 @@
           "body": "Da tampa ao casaco, cada parte precisa de uma identificação que possa ser conferida.",
           "note": "Salve este guia para revisar os pertences."
         }
-      ]
+      ],
+      "theme": "pertences"
     },
     {
       "school": "aviaozinho",
@@ -117,7 +118,8 @@
             }
           ]
         }
-      ]
+      ],
+      "theme": "recados"
     },
     {
       "school": "colibri",
@@ -201,7 +203,8 @@
           "body": "O que foi observado, o que ficou esclarecido e o que merece uma próxima conversa.",
           "note": "Salve este roteiro para o próximo encontro."
         }
-      ]
+      ],
+      "theme": "familia-escola"
     },
     {
       "school": "colibri",
@@ -234,7 +237,8 @@
             }
           ]
         }
-      ]
+      ],
+      "theme": "recados"
     }
   ]
 }

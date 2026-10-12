@@ -39,6 +39,8 @@ Avião de papel, rota pontilhada, nuvens, estrelas, arco-íris, papel, fita, pol
 
 Usar a mesma paleta e tipografia em cartões de papel claro, curvas e pequenos detalhes de papel. A informação é o elemento principal; foto opcional. Escrever de forma próxima e direta, sem obrigar metáfora de voo numa orientação.
 
+Preservar a energia infantil: áreas de cor visíveis, cartões sobrepostos e objetos ilustrados relacionados ao tema. Dia das Crianças pede brincadeiras e materiais de criação; pertences pede mochila e garrafinha. Não limitar o visual a uma página quase vazia com um pequeno avião no rodapé.
+
 Layouts: `info-cover`, `info-explain`, `info-list`, `info-steps`, `info-compare`, `info-summary`, `info-notice`. Ver `formato-informativo.md`.
 
 ## Não usar

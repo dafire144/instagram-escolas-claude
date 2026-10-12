@@ -61,6 +61,7 @@ Exemplo demonstrativo de leitura de recados, sem anunciar regras ou eventos de u
 ```json
 {
   "content_type": "informative",
+  "theme": "recados",
   "school": "colibri",
   "format": "carousel",
   "slug": "como-ler-um-recado",
@@ -102,13 +103,16 @@ Não incluir `photos`, `photo` ou `safe_photo_reviewed` quando não houver fotog
 ## Informativo: campos e layouts
 
 - Raiz: `content_type`, `school` (`aviaozinho` ou `colibri`), `format` (`carousel` ou `static`), `slug`, `output`, `caption`.
+- Tema visual opcional: `theme` na raiz, com `escola` (padrão), `pertences`, `recados`, `familia-escola` ou `dia-das-criancas`. Define os objetos ilustrados do assunto, sem alterar a paleta da escola. Jobs antigos sem esse campo usam `escola`.
 - Carrossel: `slides`, com 2 a 10 telas. A recomendação editorial é de 4 a 7 quando o assunto justificar.
 - Estático: uma tela. Seus campos podem estar no topo do job ou em `slides` com um único item.
-- Tela: `layout`, `eyebrow`, `title`, `body`; `items`, `note` e `photo` conforme a composição.
+- Tela: `layout`, `eyebrow`, `title`, `body`; `items`, `note` e `photo` conforme a composição. `slide.theme` pode sobrescrever o tema do job nessa tela, usando os mesmos valores permitidos.
 - Item: `{ "title": "...", "body": "..." }`; o corpo do item é opcional. No máximo quatro itens; `info-compare` exige exatamente dois.
 - Foto opcional: `slide.photo` no carrossel ou `photo` no estático. Somente se houver foto, declarar `safe_photo_reviewed: true` na raiz após a inspeção real de todas as pessoas.
 
 Layouts: `info-cover`, `info-explain`, `info-list`, `info-steps`, `info-compare`, `info-summary`, `info-notice`.
+
+Escolher o tema pela informação: `dia-das-criancas` usa repertório de brinquedos e brincadeiras; `recados`, caderno, bilhete e calendário. Consultar `formato-informativo.md`. Assuntos novos exigem repertório próprio antes da produção, em vez de objetos disponíveis sem relação com o tema.
 
 Limites técnicos de caracteres, incluindo espaços:
 

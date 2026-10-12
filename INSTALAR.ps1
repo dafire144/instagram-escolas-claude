@@ -5,9 +5,9 @@ param(
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-$versao = "1.2.0"
-$downloadUrl = "https://raw.githubusercontent.com/dafire144/instagram-escolas-claude/main/dist/instagram-escolas-claude-v1.2.0.zip"
-$sha256Esperado = "74173206A116E192EAC86D4F6E9A718DCDED3BE88004185793B7752008DD8ED9"
+$versao = "1.3.0"
+$downloadUrl = "https://raw.githubusercontent.com/dafire144/instagram-escolas-claude/main/dist/instagram-escolas-claude-v1.3.0.zip"
+$sha256Esperado = "AF00A037BB42F4C1AF10AA31152967AD786515359C0039CC739DA5B539826DB5"
 $tempZip = Join-Path ([System.IO.Path]::GetTempPath()) "instagram-escolas-claude-$versao-$PID.zip"
 
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
